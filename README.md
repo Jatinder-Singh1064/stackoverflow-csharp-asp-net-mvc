@@ -1,5 +1,5 @@
 # stackoverflow-csharp-asp-net-mvc
-Stackoverflow is ASP.NET MVC based Web Application which mimics the original Stackoverflow website and its operations.
+Stackoverflow is ASP.NET MVC based Web Application implementing Entity Framework along with Authentication using Microsoft Identity Framework which mimics the original Stackoverflow website and its operations.
 Objective - Start building a question/answer discussion board similar to stackoverflow using MVC ASP.NET.
 Build an ASP.NET MVC Application to mimic a single user question and answer forum; similar to stackoverflow with the ability to answer questions.
 You are also required to implement authentication and user registration using the Identity framework.
