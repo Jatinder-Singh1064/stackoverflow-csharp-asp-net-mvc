@@ -1,0 +1,41 @@
+﻿@model N01419541_JatinderSingh_Assignment2_3.Models.Answer
+
+@{
+    ViewBag.Title = "Answer Details";
+}
+
+<h2>Answer Details</h2>
+
+<div>
+    <h4>Answer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Question.QuestionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question.QuestionName, new { @readonly = "readonly" })
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnswerText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnswerText, new { @readonly = "readonly" })
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnswerDateAndTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnswerDateAndTime)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "ViewAnswers", new { id = Model.QuestionId })
+</p>
+
